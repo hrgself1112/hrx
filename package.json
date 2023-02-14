@@ -6,7 +6,9 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "deploy": "ftp-deploy --server  ftp.dsconstruction.co.in --username dsconstructionhrx@dsconstruction.co.in --password \"F;0az@ZmoC%2\"",
+    "lint": "next lint" 
+
   },
   "dependencies": {
     "@next/font": "13.1.6",
@@ -15,5 +17,8 @@
     "next": "13.1.6",
     "react": "18.2.0",
     "react-dom": "18.2.0"
+  },
+  "devDependencies": {
+    "@samkirkland/ftp-deploy": "^1.2.2"
   }
 }
