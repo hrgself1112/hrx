@@ -1,13 +1,25 @@
 {
     "description": "DO NOT DELETE THIS FILE. This file is used to keep track of which files have been synced in the most recent deployment. If you delete this file a resync will need to be done (which can take a while) - read more: https://github.com/SamKirkland/FTP-Deploy-Action",
     "version": "1.0.0",
-    "generatedTime": 1676391498630,
+    "generatedTime": 1676391709085,
     "data": [
         {
             "type": "file",
             "name": ".eslintrc.json",
             "size": 40,
             "hash": "1589a15e55fbebc6519c95d91d8f0a090618f20dc78e479858b9c27552484961"
+        },
+        {
+            "type": "file",
+            "name": ".ftp-deploy-sync-state.json",
+            "size": 4600,
+            "hash": "50e8acdaed005e26b47e40e804883f0d045562ab3c5c15e2ccd340b61b0bb5af"
+        },
+        {
+            "type": "file",
+            "name": "jsconfig.json",
+            "size": 97,
+            "hash": "6dfda1ddf53329b2f1da5cc7e81740c654082fd2921177549754fb688b306d68"
         },
         {
             "type": "file",
@@ -32,18 +44,6 @@
             "hash": "7c44acd7e81bf4b067bd6eb7f80216dbabf69eaefbb654bffc3d892dbb39d9fa"
         },
         {
-            "type": "file",
-            "name": "jsconfig.json",
-            "size": 97,
-            "hash": "6dfda1ddf53329b2f1da5cc7e81740c654082fd2921177549754fb688b306d68"
-        },
-        {
-            "type": "file",
-            "name": "server.js",
-            "size": 820,
-            "hash": "0005e1735064ef5088f9a1bab99c46d8f1168a839790fb094977ea5cbac272b5"
-        },
-        {
             "type": "folder",
             "name": "src"
         },
@@ -61,6 +61,24 @@
         },
         {
             "type": "file",
+            "name": "server.js",
+            "size": 820,
+            "hash": "0005e1735064ef5088f9a1bab99c46d8f1168a839790fb094977ea5cbac272b5"
+        },
+        {
+            "type": "file",
+            "name": "public/favicon.ico",
+            "size": 25931,
+            "hash": "2b8ad2d33455a8f736fc3a8ebf8f0bdea8848ad4c0db48a2833bd0f9cd775932"
+        },
+        {
+            "type": "file",
+            "name": "public/next.svg",
+            "size": 1375,
+            "hash": "55995dfad6ecb4945a1e856ddca03c5e16aa5bf13fd21b4df6a74ae79357bcfc"
+        },
+        {
+            "type": "file",
             "name": "public/thirteen.svg",
             "size": 1138,
             "hash": "6a70cf328586a2b3e98f6f7f5ab88ae84732d4d4f0040d3ccc6b3a3ea0f1eab0"
@@ -72,34 +90,12 @@
             "hash": "3fa5cd757b418e18afc68ddebad55f443206e410327921ddb2bf1be731658880"
         },
         {
-            "type": "file",
-            "name": "public/next.svg",
-            "size": 1375,
-            "hash": "55995dfad6ecb4945a1e856ddca03c5e16aa5bf13fd21b4df6a74ae79357bcfc"
-        },
-        {
-            "type": "folder",
-            "name": "src/pages"
-        },
-        {
             "type": "folder",
             "name": "src/app"
         },
         {
-            "type": "file",
-            "name": "public/favicon.ico",
-            "size": 25931,
-            "hash": "2b8ad2d33455a8f736fc3a8ebf8f0bdea8848ad4c0db48a2833bd0f9cd775932"
-        },
-        {
             "type": "folder",
-            "name": "src/pages/api"
-        },
-        {
-            "type": "file",
-            "name": "src/app/head.js",
-            "size": 298,
-            "hash": "8ba6c6b0e24078d8297d1392f265f71bc148b17644562e205fc74b7639935509"
+            "name": "src/pages"
         },
         {
             "type": "file",
@@ -109,9 +105,9 @@
         },
         {
             "type": "file",
-            "name": "src/app/page.js",
-            "size": 2775,
-            "hash": "277765dbc8ff01e60a9c0f5795b5e6152925d021d61a14d056fe5a61be567932"
+            "name": "src/app/head.js",
+            "size": 333,
+            "hash": "106a38e2797bddba45eefa8f96a2fa1ead5d4b2ef6d41ec2d7bd1767e51fa83a"
         },
         {
             "type": "file",
@@ -121,9 +117,19 @@
         },
         {
             "type": "file",
+            "name": "src/app/page.js",
+            "size": 2775,
+            "hash": "277765dbc8ff01e60a9c0f5795b5e6152925d021d61a14d056fe5a61be567932"
+        },
+        {
+            "type": "file",
             "name": "src/app/page.module.css",
             "size": 4651,
             "hash": "520fa8a8f238cb8e019d5516d75c4878da124afc37c2931cba41b8b7b6a1a8e2"
+        },
+        {
+            "type": "folder",
+            "name": "src/pages/api"
         },
         {
             "type": "file",
