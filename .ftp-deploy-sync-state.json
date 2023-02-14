@@ -1,7 +1,7 @@
 {
     "description": "DO NOT DELETE THIS FILE. This file is used to keep track of which files have been synced in the most recent deployment. If you delete this file a resync will need to be done (which can take a while) - read more: https://github.com/SamKirkland/FTP-Deploy-Action",
     "version": "1.0.0",
-    "generatedTime": 1676391709085,
+    "generatedTime": 1676391955359,
     "data": [
         {
             "type": "file",
@@ -13,7 +13,13 @@
             "type": "file",
             "name": ".ftp-deploy-sync-state.json",
             "size": 4600,
-            "hash": "50e8acdaed005e26b47e40e804883f0d045562ab3c5c15e2ccd340b61b0bb5af"
+            "hash": "b2c080d419fd90734e9417e172b9d34426acc508b233721d3ff1c06aa28faa05"
+        },
+        {
+            "type": "file",
+            "name": ".htaccess",
+            "size": 544,
+            "hash": "96cc94ab1a8e3f1128ed99390e7c1b1b374a0b5549e4035764d89dca7e474b3d"
         },
         {
             "type": "file",
@@ -44,6 +50,12 @@
             "hash": "7c44acd7e81bf4b067bd6eb7f80216dbabf69eaefbb654bffc3d892dbb39d9fa"
         },
         {
+            "type": "file",
+            "name": "server.js",
+            "size": 820,
+            "hash": "0005e1735064ef5088f9a1bab99c46d8f1168a839790fb094977ea5cbac272b5"
+        },
+        {
             "type": "folder",
             "name": "src"
         },
@@ -58,12 +70,6 @@
             "name": "yarn.lock",
             "size": 87100,
             "hash": "c462673cb1d10d078de78de2338788432ce28262c3e5a317666b155d383e6eae"
-        },
-        {
-            "type": "file",
-            "name": "server.js",
-            "size": 820,
-            "hash": "0005e1735064ef5088f9a1bab99c46d8f1168a839790fb094977ea5cbac272b5"
         },
         {
             "type": "file",
@@ -105,27 +111,27 @@
         },
         {
             "type": "file",
-            "name": "src/app/head.js",
-            "size": 333,
-            "hash": "106a38e2797bddba45eefa8f96a2fa1ead5d4b2ef6d41ec2d7bd1767e51fa83a"
-        },
-        {
-            "type": "file",
             "name": "src/app/layout.js",
             "size": 365,
             "hash": "12e9da0f40712b45478c47816937a86e3b9cbc277597ee6decf49295fa47f92f"
         },
         {
             "type": "file",
-            "name": "src/app/page.js",
-            "size": 2775,
-            "hash": "277765dbc8ff01e60a9c0f5795b5e6152925d021d61a14d056fe5a61be567932"
+            "name": "src/app/head.js",
+            "size": 333,
+            "hash": "106a38e2797bddba45eefa8f96a2fa1ead5d4b2ef6d41ec2d7bd1767e51fa83a"
         },
         {
             "type": "file",
             "name": "src/app/page.module.css",
             "size": 4651,
             "hash": "520fa8a8f238cb8e019d5516d75c4878da124afc37c2931cba41b8b7b6a1a8e2"
+        },
+        {
+            "type": "file",
+            "name": "src/app/page.js",
+            "size": 2775,
+            "hash": "277765dbc8ff01e60a9c0f5795b5e6152925d021d61a14d056fe5a61be567932"
         },
         {
             "type": "folder",
