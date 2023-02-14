@@ -5,7 +5,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "NODE_ENV=production node server.js", 
+    "start": "next start",
     "deploy": "ftp-deploy --server  ftp.dsconstruction.co.in --username dsconstructionhrx@dsconstruction.co.in --password \"F;0az@ZmoC%2\"",
     "lint": "next lint" 
 

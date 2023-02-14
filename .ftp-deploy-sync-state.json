@@ -1,14 +1,8 @@
 {
     "description": "DO NOT DELETE THIS FILE. This file is used to keep track of which files have been synced in the most recent deployment. If you delete this file a resync will need to be done (which can take a while) - read more: https://github.com/SamKirkland/FTP-Deploy-Action",
     "version": "1.0.0",
-    "generatedTime": 1676392244324,
+    "generatedTime": 1676392923986,
     "data": [
-        {
-            "type": "file",
-            "name": ".ftp-deploy-sync-state.json",
-            "size": 4794,
-            "hash": "9bf8b2641f4e82c7ff14c639ea40e2a4f1964aa30a75fac19d39bea93f58072d"
-        },
         {
             "type": "file",
             "name": ".eslintrc.json",
@@ -17,9 +11,9 @@
         },
         {
             "type": "file",
-            "name": ".htaccess",
-            "size": 544,
-            "hash": "96cc94ab1a8e3f1128ed99390e7c1b1b374a0b5549e4035764d89dca7e474b3d"
+            "name": ".ftp-deploy-sync-state.json",
+            "size": 5035,
+            "hash": "c586b4858d07b54ae38d14b54fda8579e25b733e97e19783d7b2ac00f7ae72c0"
         },
         {
             "type": "file",
@@ -29,15 +23,27 @@
         },
         {
             "type": "file",
+            "name": ".htaccess",
+            "size": 544,
+            "hash": "96cc94ab1a8e3f1128ed99390e7c1b1b374a0b5549e4035764d89dca7e474b3d"
+        },
+        {
+            "type": "file",
             "name": "next.config.js",
             "size": 134,
             "hash": "91566bf36d53d2c2600b0268256dcb98001270d8fe2ea24159f3ddc0a12af002"
         },
         {
             "type": "file",
+            "name": ".ftp-deploy-sync-server-state-buffer-file---delete.json",
+            "size": 2920,
+            "hash": "bb2e129756bf3d64f3e5b4a63b2a3790f4a0d0b55ef67fe1246fb92dd93eb419"
+        },
+        {
+            "type": "file",
             "name": "package.json",
-            "size": 577,
-            "hash": "dfc4d8449eb68e0ee92fd2d4fb710d072c08a713d86caf7518e4a801136c36dc"
+            "size": 602,
+            "hash": "d2732f84a9a8312e4a2bf20b2dd765b415b9304132f1f3621fa5fad85df61b36"
         },
         {
             "type": "folder",
@@ -97,15 +103,11 @@
         },
         {
             "type": "folder",
-            "name": "src/pages"
-        },
-        {
-            "type": "folder",
             "name": "src/app"
         },
         {
             "type": "folder",
-            "name": "src/pages/api"
+            "name": "src/pages"
         },
         {
             "type": "file",
@@ -136,6 +138,10 @@
             "name": "src/app/page.module.css",
             "size": 4651,
             "hash": "520fa8a8f238cb8e019d5516d75c4878da124afc37c2931cba41b8b7b6a1a8e2"
+        },
+        {
+            "type": "folder",
+            "name": "src/pages/api"
         },
         {
             "type": "file",
